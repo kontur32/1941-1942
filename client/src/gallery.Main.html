@@ -6,7 +6,7 @@
     <title>{{категория}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
-    <link rel="stylesheet" href="/static/1941-1942/grid-gallery.css"/>
+    <link rel="stylesheet" href="https://demo.tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates/assets/css/cards-gallery.css"/>
   </head>
   <body>
     <section class="gallery-block cards-gallery">
@@ -20,11 +20,13 @@
        </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="/static/1941-1942/baguetteBox.js"></script>
+    <script>
+        baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+    </script>
   </body>
   <footer>
-    <div>
-      Верстка<a href="https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates">tutorialzine.com</a>
+    <div class="container">
+      Верстка <a href="https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates">tutorialzine.com</a>
     </div>
   </footer>
 </html>
